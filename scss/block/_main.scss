@@ -103,6 +103,10 @@
             background-color: rgba(0, 0, 0, 0);
             padding: 0 30px;
             border-radius: 26px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            color: $whiteColor;
             &::placeholder {
                 font-family: 'Montserrat', sans-serif;
                 font-weight: 600;
