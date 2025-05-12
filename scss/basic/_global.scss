@@ -1,0 +1,26 @@
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.body__container {
+    width: 100%;
+    overflow: hidden;
+}
+.btn {
+    width: 170px;
+    height: 40px;
+    border-radius: 26px;
+    background-color: $orangeColor;
+    transition: all .4s ease;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+        background-color: $orangeColor2;
+    }
+}
