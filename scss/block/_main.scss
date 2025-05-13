@@ -10,8 +10,8 @@
     }
     &__img-right {
         position: absolute;
-        top: 50%;
-        right: 0;
+        top: 80%;
+        right: 80px;
         width: 30%;
         z-index: -1;
          transform: translateY(-50%);
@@ -124,6 +124,10 @@
             border-radius: 15px;
             border: 1px solid #fff;
             padding: 10px 10px 0 30px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            color: $whiteColor;
             &::placeholder {
                 font-family: 'Montserrat', sans-serif;
                 font-weight: 600;
